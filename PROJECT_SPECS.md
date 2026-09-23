@@ -42,6 +42,7 @@ This document is the single source of truth for design, media, and architectural
 ---
 
 ## 3. Video Assets & Ingest Specs
-* Total unique master cuts cataloged: 98 verified cuts.
-* All files strictly under GitHub's 100MB per-file limit.
-* WebM dual-pipeline with 25KB WebP thumbnails.
+* **Single Universal Format**: Strictly **MP4 (H.264 + AAC + `faststart`)** across all 98 cuts.
+* All WebM files permanently eliminated to cut vault size in half and maximize universal hardware playback.
+* Total unique master cuts cataloged: 98 verified cuts at strict 720p.
+* Lightweight 25KB WebP thumbnails for instant poster rendering.

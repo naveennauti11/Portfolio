@@ -1,6 +1,6 @@
 /**
- * Central Media Vault Manifest (98 Master 720p WebM Cuts)
- * Auto-generated with on-demand streaming, 720p optimization and 25KB WebP posters
+ * Central Media Vault Manifest (98 Master 720p MP4 Cuts)
+ * Single Universal Format: H.264 + AAC + Faststart Streaming
  */
 
 export const VAULT_VIDEOS = [
@@ -10,11 +10,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_001_3aug_cinematic_2.webm",
+    "mp4": "/media_vault/ai_video_001_3aug_cinematic_2.mp4",
+    "video": "/media_vault/ai_video_001_3aug_cinematic_2.mp4",
     "poster": "/media_vault/ai_video_001_3aug_cinematic_2.webp",
-    "sizeMb": "9.2",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_001_3aug_cinematic_2.mp4"
+    "sizeMb": "12.2",
+    "aspect": "9/16"
   },
   {
     "id": "vault-2",
@@ -22,11 +22,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_002_4_aug_cinematic3.webm",
+    "mp4": "/media_vault/ai_video_002_4_aug_cinematic3.mp4",
+    "video": "/media_vault/ai_video_002_4_aug_cinematic3.mp4",
     "poster": "/media_vault/ai_video_002_4_aug_cinematic3.webp",
-    "sizeMb": "3.4",
-    "aspect": "16/9",
-    "mp4": "/media_vault/ai_video_002_4_aug_cinematic3.mp4"
+    "sizeMb": "4.9",
+    "aspect": "16/9"
   },
   {
     "id": "vault-3",
@@ -34,11 +34,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_003_4aug_jewel_cinematic_4.webm",
+    "mp4": "/media_vault/ai_video_003_4aug_jewel_cinematic_4.mp4",
+    "video": "/media_vault/ai_video_003_4aug_jewel_cinematic_4.mp4",
     "poster": "/media_vault/ai_video_003_4aug_jewel_cinematic_4.webp",
-    "sizeMb": "3.3",
-    "aspect": "16/9",
-    "mp4": "/media_vault/ai_video_003_4aug_jewel_cinematic_4.mp4"
+    "sizeMb": "4.6",
+    "aspect": "16/9"
   },
   {
     "id": "vault-4",
@@ -46,11 +46,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_004_1.webm",
+    "mp4": "/media_vault/ai_video_004_1.mp4",
+    "video": "/media_vault/ai_video_004_1.mp4",
     "poster": "/media_vault/ai_video_004_1.webp",
-    "sizeMb": "6.5",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_004_1.mp4"
+    "sizeMb": "8.9",
+    "aspect": "9/16"
   },
   {
     "id": "vault-5",
@@ -58,11 +58,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_005_16.webm",
+    "mp4": "/media_vault/ai_video_005_16.mp4",
+    "video": "/media_vault/ai_video_005_16.mp4",
     "poster": "/media_vault/ai_video_005_16.webp",
-    "sizeMb": "4.7",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_005_16.mp4"
+    "sizeMb": "6.7",
+    "aspect": "9/16"
   },
   {
     "id": "vault-6",
@@ -70,11 +70,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_006_19.webm",
+    "mp4": "/media_vault/ai_video_006_19.mp4",
+    "video": "/media_vault/ai_video_006_19.mp4",
     "poster": "/media_vault/ai_video_006_19.webp",
-    "sizeMb": "6.4",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_006_19.mp4"
+    "sizeMb": "8.5",
+    "aspect": "9/16"
   },
   {
     "id": "vault-7",
@@ -82,11 +82,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_007_2.webm",
+    "mp4": "/media_vault/ai_video_007_2.mp4",
+    "video": "/media_vault/ai_video_007_2.mp4",
     "poster": "/media_vault/ai_video_007_2.webp",
-    "sizeMb": "7.5",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_007_2.mp4"
+    "sizeMb": "9.6",
+    "aspect": "9/16"
   },
   {
     "id": "vault-8",
@@ -94,11 +94,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_008_21.webm",
+    "mp4": "/media_vault/ai_video_008_21.mp4",
+    "video": "/media_vault/ai_video_008_21.mp4",
     "poster": "/media_vault/ai_video_008_21.webp",
-    "sizeMb": "5.7",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_008_21.mp4"
+    "sizeMb": "7.6",
+    "aspect": "9/16"
   },
   {
     "id": "vault-9",
@@ -106,11 +106,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_009_3.webm",
+    "mp4": "/media_vault/ai_video_009_3.mp4",
+    "video": "/media_vault/ai_video_009_3.mp4",
     "poster": "/media_vault/ai_video_009_3.webp",
-    "sizeMb": "6.0",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_009_3.mp4"
+    "sizeMb": "6.7",
+    "aspect": "9/16"
   },
   {
     "id": "vault-10",
@@ -118,11 +118,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_010_4_feb_video_adelaide_bucket_list.webm",
+    "mp4": "/media_vault/ai_video_010_4_feb_video_adelaide_bucket_list.mp4",
+    "video": "/media_vault/ai_video_010_4_feb_video_adelaide_bucket_list.mp4",
     "poster": "/media_vault/ai_video_010_4_feb_video_adelaide_bucket_list.webp",
-    "sizeMb": "6.9",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_010_4_feb_video_adelaide_bucket_list.mp4"
+    "sizeMb": "9.9",
+    "aspect": "9/16"
   },
   {
     "id": "vault-11",
@@ -130,11 +130,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_011_4.webm",
+    "mp4": "/media_vault/ai_video_011_4.mp4",
+    "video": "/media_vault/ai_video_011_4.mp4",
     "poster": "/media_vault/ai_video_011_4.webp",
-    "sizeMb": "5.3",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_011_4.mp4"
+    "sizeMb": "4.9",
+    "aspect": "9/16"
   },
   {
     "id": "vault-12",
@@ -142,11 +142,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_012_44.webm",
+    "mp4": "/media_vault/ai_video_012_44.mp4",
+    "video": "/media_vault/ai_video_012_44.mp4",
     "poster": "/media_vault/ai_video_012_44.webp",
-    "sizeMb": "22.2",
-    "aspect": "16/9",
-    "mp4": "/media_vault/ai_video_012_44.mp4"
+    "sizeMb": "45.7",
+    "aspect": "16/9"
   },
   {
     "id": "vault-13",
@@ -154,11 +154,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_013_4sep_reel_7_from_doc.webm",
+    "mp4": "/media_vault/ai_video_013_4sep_reel_7_from_doc.mp4",
+    "video": "/media_vault/ai_video_013_4sep_reel_7_from_doc.mp4",
     "poster": "/media_vault/ai_video_013_4sep_reel_7_from_doc.webp",
-    "sizeMb": "3.5",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_013_4sep_reel_7_from_doc.mp4"
+    "sizeMb": "4.4",
+    "aspect": "9/16"
   },
   {
     "id": "vault-14",
@@ -166,11 +166,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_014_6.webm",
+    "mp4": "/media_vault/ai_video_014_6.mp4",
+    "video": "/media_vault/ai_video_014_6.mp4",
     "poster": "/media_vault/ai_video_014_6.webp",
-    "sizeMb": "8.7",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_014_6.mp4"
+    "sizeMb": "11.6",
+    "aspect": "9/16"
   },
   {
     "id": "vault-15",
@@ -178,11 +178,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_015_7.webm",
+    "mp4": "/media_vault/ai_video_015_7.mp4",
+    "video": "/media_vault/ai_video_015_7.mp4",
     "poster": "/media_vault/ai_video_015_7.webp",
-    "sizeMb": "6.7",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_015_7.mp4"
+    "sizeMb": "6.6",
+    "aspect": "9/16"
   },
   {
     "id": "vault-16",
@@ -190,11 +190,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_016_amt_reel_1.webm",
+    "mp4": "/media_vault/ai_video_016_amt_reel_1.mp4",
+    "video": "/media_vault/ai_video_016_amt_reel_1.mp4",
     "poster": "/media_vault/ai_video_016_amt_reel_1.webp",
-    "sizeMb": "7.9",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_016_amt_reel_1.mp4"
+    "sizeMb": "11.2",
+    "aspect": "9/16"
   },
   {
     "id": "vault-17",
@@ -202,11 +202,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_017_britts_video.webm",
+    "mp4": "/media_vault/ai_video_017_britts_video.mp4",
+    "video": "/media_vault/ai_video_017_britts_video.mp4",
     "poster": "/media_vault/ai_video_017_britts_video.webp",
-    "sizeMb": "5.2",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_017_britts_video.mp4"
+    "sizeMb": "8.4",
+    "aspect": "9/16"
   },
   {
     "id": "vault-18",
@@ -214,11 +214,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_018_gudi_pudwa_video2.webm",
+    "mp4": "/media_vault/ai_video_018_gudi_pudwa_video2.mp4",
+    "video": "/media_vault/ai_video_018_gudi_pudwa_video2.mp4",
     "poster": "/media_vault/ai_video_018_gudi_pudwa_video2.webp",
-    "sizeMb": "3.2",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_018_gudi_pudwa_video2.mp4"
+    "sizeMb": "3.4",
+    "aspect": "9/16"
   },
   {
     "id": "vault-19",
@@ -226,11 +226,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_019_jewel_voiceover_3.webm",
+    "mp4": "/media_vault/ai_video_019_jewel_voiceover_3.mp4",
+    "video": "/media_vault/ai_video_019_jewel_voiceover_3.mp4",
     "poster": "/media_vault/ai_video_019_jewel_voiceover_3.webp",
-    "sizeMb": "8.5",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_019_jewel_voiceover_3.mp4"
+    "sizeMb": "9.9",
+    "aspect": "9/16"
   },
   {
     "id": "vault-20",
@@ -238,11 +238,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_020_jewel_voiceover_5.webm",
+    "mp4": "/media_vault/ai_video_020_jewel_voiceover_5.mp4",
+    "video": "/media_vault/ai_video_020_jewel_voiceover_5.mp4",
     "poster": "/media_vault/ai_video_020_jewel_voiceover_5.webp",
-    "sizeMb": "5.6",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_020_jewel_voiceover_5.mp4"
+    "sizeMb": "7.6",
+    "aspect": "9/16"
   },
   {
     "id": "vault-21",
@@ -250,11 +250,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_021_jewel_voiceover_6.webm",
+    "mp4": "/media_vault/ai_video_021_jewel_voiceover_6.mp4",
+    "video": "/media_vault/ai_video_021_jewel_voiceover_6.mp4",
     "poster": "/media_vault/ai_video_021_jewel_voiceover_6.webp",
-    "sizeMb": "8.5",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_021_jewel_voiceover_6.mp4"
+    "sizeMb": "11.8",
+    "aspect": "9/16"
   },
   {
     "id": "vault-22",
@@ -262,11 +262,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_022_jewel_voiceover_1.webm",
+    "mp4": "/media_vault/ai_video_022_jewel_voiceover_1.mp4",
+    "video": "/media_vault/ai_video_022_jewel_voiceover_1.mp4",
     "poster": "/media_vault/ai_video_022_jewel_voiceover_1.webp",
-    "sizeMb": "7.7",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_022_jewel_voiceover_1.mp4"
+    "sizeMb": "10.6",
+    "aspect": "9/16"
   },
   {
     "id": "vault-23",
@@ -274,11 +274,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_023_jewel_voiceover_2.webm",
+    "mp4": "/media_vault/ai_video_023_jewel_voiceover_2.mp4",
+    "video": "/media_vault/ai_video_023_jewel_voiceover_2.mp4",
     "poster": "/media_vault/ai_video_023_jewel_voiceover_2.webp",
-    "sizeMb": "7.2",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_023_jewel_voiceover_2.mp4"
+    "sizeMb": "8.0",
+    "aspect": "9/16"
   },
   {
     "id": "vault-24",
@@ -286,11 +286,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_024_jewel_voiceover_4.webm",
+    "mp4": "/media_vault/ai_video_024_jewel_voiceover_4.mp4",
+    "video": "/media_vault/ai_video_024_jewel_voiceover_4.mp4",
     "poster": "/media_vault/ai_video_024_jewel_voiceover_4.webp",
-    "sizeMb": "7.5",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_024_jewel_voiceover_4.mp4"
+    "sizeMb": "9.0",
+    "aspect": "9/16"
   },
   {
     "id": "vault-25",
@@ -298,11 +298,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_025_livey_2min.webm",
+    "mp4": "/media_vault/ai_video_025_livey_2min.mp4",
+    "video": "/media_vault/ai_video_025_livey_2min.mp4",
     "poster": "/media_vault/ai_video_025_livey_2min.webp",
-    "sizeMb": "17.9",
-    "aspect": "16/9",
-    "mp4": "/media_vault/ai_video_025_livey_2min.mp4"
+    "sizeMb": "20.9",
+    "aspect": "16/9"
   },
   {
     "id": "vault-26",
@@ -310,11 +310,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_026_mad_march_23jan_3.webm",
+    "mp4": "/media_vault/ai_video_026_mad_march_23jan_3.mp4",
+    "video": "/media_vault/ai_video_026_mad_march_23jan_3.mp4",
     "poster": "/media_vault/ai_video_026_mad_march_23jan_3.webp",
-    "sizeMb": "6.5",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_026_mad_march_23jan_3.mp4"
+    "sizeMb": "8.5",
+    "aspect": "9/16"
   },
   {
     "id": "vault-27",
@@ -322,11 +322,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_027_nortwest_14_jan_video_v2.webm",
+    "mp4": "/media_vault/ai_video_027_nortwest_14_jan_video_v2.mp4",
+    "video": "/media_vault/ai_video_027_nortwest_14_jan_video_v2.mp4",
     "poster": "/media_vault/ai_video_027_nortwest_14_jan_video_v2.webp",
-    "sizeMb": "6.6",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_027_nortwest_14_jan_video_v2.mp4"
+    "sizeMb": "13.3",
+    "aspect": "9/16"
   },
   {
     "id": "vault-28",
@@ -334,11 +334,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_028_norwest_video_6jan.webm",
+    "mp4": "/media_vault/ai_video_028_norwest_video_6jan.mp4",
+    "video": "/media_vault/ai_video_028_norwest_video_6jan.mp4",
     "poster": "/media_vault/ai_video_028_norwest_video_6jan.webp",
-    "sizeMb": "6.0",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_028_norwest_video_6jan.mp4"
+    "sizeMb": "11.5",
+    "aspect": "9/16"
   },
   {
     "id": "vault-29",
@@ -346,11 +346,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_029_sep_cellular_c1.webm",
+    "mp4": "/media_vault/ai_video_029_sep_cellular_c1.mp4",
+    "video": "/media_vault/ai_video_029_sep_cellular_c1.mp4",
     "poster": "/media_vault/ai_video_029_sep_cellular_c1.webp",
-    "sizeMb": "4.0",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_029_sep_cellular_c1.mp4"
+    "sizeMb": "8.0",
+    "aspect": "9/16"
   },
   {
     "id": "vault-30",
@@ -358,11 +358,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_030_sep_cellular_c2.webm",
+    "mp4": "/media_vault/ai_video_030_sep_cellular_c2.mp4",
+    "video": "/media_vault/ai_video_030_sep_cellular_c2.mp4",
     "poster": "/media_vault/ai_video_030_sep_cellular_c2.webp",
-    "sizeMb": "4.0",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_030_sep_cellular_c2.mp4"
+    "sizeMb": "6.7",
+    "aspect": "9/16"
   },
   {
     "id": "vault-31",
@@ -370,11 +370,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_031_sep_naville_c1.webm",
+    "mp4": "/media_vault/ai_video_031_sep_naville_c1.mp4",
+    "video": "/media_vault/ai_video_031_sep_naville_c1.mp4",
     "poster": "/media_vault/ai_video_031_sep_naville_c1.webp",
-    "sizeMb": "6.1",
-    "aspect": "9/16",
-    "mp4": "/media_vault/ai_video_031_sep_naville_c1.mp4"
+    "sizeMb": "17.3",
+    "aspect": "9/16"
   },
   {
     "id": "vault-32",
@@ -382,11 +382,11 @@ export const VAULT_VIDEOS = [
     "category": "AI Video",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/ai_video_032_upila_video_1_2_jan_mg.webm",
+    "mp4": "/media_vault/ai_video_032_upila_video_1_2_jan_mg.mp4",
+    "video": "/media_vault/ai_video_032_upila_video_1_2_jan_mg.mp4",
     "poster": "/media_vault/ai_video_032_upila_video_1_2_jan_mg.webp",
     "sizeMb": "2.4",
-    "aspect": "16/9",
-    "mp4": "/media_vault/ai_video_032_upila_video_1_2_jan_mg.mp4"
+    "aspect": "16/9"
   },
   {
     "id": "vault-33",
@@ -394,11 +394,11 @@ export const VAULT_VIDEOS = [
     "category": "Cinematic",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/cinematic_033_amt_2sep_cinematic1.webm",
+    "mp4": "/media_vault/cinematic_033_amt_2sep_cinematic1.mp4",
+    "video": "/media_vault/cinematic_033_amt_2sep_cinematic1.mp4",
     "poster": "/media_vault/cinematic_033_amt_2sep_cinematic1.webp",
-    "sizeMb": "7.7",
-    "aspect": "9/16",
-    "mp4": "/media_vault/cinematic_033_amt_2sep_cinematic1.mp4"
+    "sizeMb": "18.3",
+    "aspect": "9/16"
   },
   {
     "id": "vault-34",
@@ -406,11 +406,11 @@ export const VAULT_VIDEOS = [
     "category": "Cinematic",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/cinematic_034_bcaa_video_final2.webm",
+    "mp4": "/media_vault/cinematic_034_bcaa_video_final2.mp4",
+    "video": "/media_vault/cinematic_034_bcaa_video_final2.mp4",
     "poster": "/media_vault/cinematic_034_bcaa_video_final2.webp",
-    "sizeMb": "9.4",
-    "aspect": "16/9",
-    "mp4": "/media_vault/cinematic_034_bcaa_video_final2.mp4"
+    "sizeMb": "14.0",
+    "aspect": "16/9"
   },
   {
     "id": "vault-35",
@@ -418,11 +418,11 @@ export const VAULT_VIDEOS = [
     "category": "Cinematic",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/cinematic_035_dunkel_brann_cake_video.webm",
+    "mp4": "/media_vault/cinematic_035_dunkel_brann_cake_video.mp4",
+    "video": "/media_vault/cinematic_035_dunkel_brann_cake_video.mp4",
     "poster": "/media_vault/cinematic_035_dunkel_brann_cake_video.webp",
-    "sizeMb": "2.7",
-    "aspect": "9/16",
-    "mp4": "/media_vault/cinematic_035_dunkel_brann_cake_video.mp4"
+    "sizeMb": "2.6",
+    "aspect": "9/16"
   },
   {
     "id": "vault-36",
@@ -430,11 +430,11 @@ export const VAULT_VIDEOS = [
     "category": "Cinematic",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/cinematic_036_igi_laptop_video.webm",
+    "mp4": "/media_vault/cinematic_036_igi_laptop_video.mp4",
+    "video": "/media_vault/cinematic_036_igi_laptop_video.mp4",
     "poster": "/media_vault/cinematic_036_igi_laptop_video.webp",
-    "sizeMb": "1.4",
-    "aspect": "9/16",
-    "mp4": "/media_vault/cinematic_036_igi_laptop_video.mp4"
+    "sizeMb": "1.2",
+    "aspect": "9/16"
   },
   {
     "id": "vault-37",
@@ -442,11 +442,11 @@ export const VAULT_VIDEOS = [
     "category": "Cinematic",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/cinematic_037_mensha_video_3_5.webm",
+    "mp4": "/media_vault/cinematic_037_mensha_video_3_5.mp4",
+    "video": "/media_vault/cinematic_037_mensha_video_3_5.mp4",
     "poster": "/media_vault/cinematic_037_mensha_video_3_5.webp",
-    "sizeMb": "2.8",
-    "aspect": "9/16",
-    "mp4": "/media_vault/cinematic_037_mensha_video_3_5.mp4"
+    "sizeMb": "3.2",
+    "aspect": "9/16"
   },
   {
     "id": "vault-38",
@@ -454,11 +454,11 @@ export const VAULT_VIDEOS = [
     "category": "Cinematic",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/cinematic_038_network_fp_video.webm",
+    "mp4": "/media_vault/cinematic_038_network_fp_video.mp4",
+    "video": "/media_vault/cinematic_038_network_fp_video.mp4",
     "poster": "/media_vault/cinematic_038_network_fp_video.webp",
-    "sizeMb": "9.3",
-    "aspect": "9/16",
-    "mp4": "/media_vault/cinematic_038_network_fp_video.mp4"
+    "sizeMb": "9.2",
+    "aspect": "9/16"
   },
   {
     "id": "vault-39",
@@ -466,11 +466,11 @@ export const VAULT_VIDEOS = [
     "category": "Cinematic",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/cinematic_039_nivant_story_with_subtitles_adap.webm",
+    "mp4": "/media_vault/cinematic_039_nivant_story_with_subtitles_adap.mp4",
+    "video": "/media_vault/cinematic_039_nivant_story_with_subtitles_adap.mp4",
     "poster": "/media_vault/cinematic_039_nivant_story_with_subtitles_adap.webp",
-    "sizeMb": "9.9",
-    "aspect": "9/16",
-    "mp4": "/media_vault/cinematic_039_nivant_story_with_subtitles_adap.mp4"
+    "sizeMb": "9.2",
+    "aspect": "9/16"
   },
   {
     "id": "vault-40",
@@ -478,11 +478,11 @@ export const VAULT_VIDEOS = [
     "category": "Cinematic",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/cinematic_040_nvn_republic_day.webm",
+    "mp4": "/media_vault/cinematic_040_nvn_republic_day.mp4",
+    "video": "/media_vault/cinematic_040_nvn_republic_day.mp4",
     "poster": "/media_vault/cinematic_040_nvn_republic_day.webp",
-    "sizeMb": "4.4",
-    "aspect": "9/16",
-    "mp4": "/media_vault/cinematic_040_nvn_republic_day.mp4"
+    "sizeMb": "6.2",
+    "aspect": "9/16"
   },
   {
     "id": "vault-41",
@@ -490,11 +490,11 @@ export const VAULT_VIDEOS = [
     "category": "Cinematic",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/cinematic_041_nyumi_june_11.webm",
+    "mp4": "/media_vault/cinematic_041_nyumi_june_11.mp4",
+    "video": "/media_vault/cinematic_041_nyumi_june_11.mp4",
     "poster": "/media_vault/cinematic_041_nyumi_june_11.webp",
-    "sizeMb": "8.4",
-    "aspect": "9/16",
-    "mp4": "/media_vault/cinematic_041_nyumi_june_11.mp4"
+    "sizeMb": "10.3",
+    "aspect": "9/16"
   },
   {
     "id": "vault-42",
@@ -502,11 +502,11 @@ export const VAULT_VIDEOS = [
     "category": "Cinematic",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/cinematic_042_royal_19_nov_promo_video_1.webm",
+    "mp4": "/media_vault/cinematic_042_royal_19_nov_promo_video_1.mp4",
+    "video": "/media_vault/cinematic_042_royal_19_nov_promo_video_1.mp4",
     "poster": "/media_vault/cinematic_042_royal_19_nov_promo_video_1.webp",
-    "sizeMb": "8.3",
-    "aspect": "9/16",
-    "mp4": "/media_vault/cinematic_042_royal_19_nov_promo_video_1.mp4"
+    "sizeMb": "15.6",
+    "aspect": "9/16"
   },
   {
     "id": "vault-43",
@@ -514,11 +514,11 @@ export const VAULT_VIDEOS = [
     "category": "Cinematic",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/cinematic_043_royal_25novpromo_reel.webm",
+    "mp4": "/media_vault/cinematic_043_royal_25novpromo_reel.mp4",
+    "video": "/media_vault/cinematic_043_royal_25novpromo_reel.mp4",
     "poster": "/media_vault/cinematic_043_royal_25novpromo_reel.webp",
-    "sizeMb": "6.9",
-    "aspect": "9/16",
-    "mp4": "/media_vault/cinematic_043_royal_25novpromo_reel.mp4"
+    "sizeMb": "12.9",
+    "aspect": "9/16"
   },
   {
     "id": "vault-44",
@@ -526,11 +526,11 @@ export const VAULT_VIDEOS = [
     "category": "Cinematic",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/cinematic_044_royal_28_nov_1.webm",
+    "mp4": "/media_vault/cinematic_044_royal_28_nov_1.mp4",
+    "video": "/media_vault/cinematic_044_royal_28_nov_1.mp4",
     "poster": "/media_vault/cinematic_044_royal_28_nov_1.webp",
-    "sizeMb": "5.8",
-    "aspect": "9/16",
-    "mp4": "/media_vault/cinematic_044_royal_28_nov_1.mp4"
+    "sizeMb": "6.7",
+    "aspect": "9/16"
   },
   {
     "id": "vault-45",
@@ -538,11 +538,11 @@ export const VAULT_VIDEOS = [
     "category": "Cinematic",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/cinematic_045_stay_vista_14.webm",
+    "mp4": "/media_vault/cinematic_045_stay_vista_14.mp4",
+    "video": "/media_vault/cinematic_045_stay_vista_14.mp4",
     "poster": "/media_vault/cinematic_045_stay_vista_14.webp",
-    "sizeMb": "8.2",
-    "aspect": "16/9",
-    "mp4": "/media_vault/cinematic_045_stay_vista_14.mp4"
+    "sizeMb": "8.6",
+    "aspect": "16/9"
   },
   {
     "id": "vault-46",
@@ -550,11 +550,11 @@ export const VAULT_VIDEOS = [
     "category": "Cinematic",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/cinematic_046_villain_perfumes.webm",
+    "mp4": "/media_vault/cinematic_046_villain_perfumes.mp4",
+    "video": "/media_vault/cinematic_046_villain_perfumes.mp4",
     "poster": "/media_vault/cinematic_046_villain_perfumes.webp",
-    "sizeMb": "4.6",
-    "aspect": "9/16",
-    "mp4": "/media_vault/cinematic_046_villain_perfumes.mp4"
+    "sizeMb": "4.2",
+    "aspect": "9/16"
   },
   {
     "id": "vault-47",
@@ -562,11 +562,11 @@ export const VAULT_VIDEOS = [
     "category": "Commercial",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/commercial_047_damani_video2.webm",
+    "mp4": "/media_vault/commercial_047_damani_video2.mp4",
+    "video": "/media_vault/commercial_047_damani_video2.mp4",
     "poster": "/media_vault/commercial_047_damani_video2.webp",
-    "sizeMb": "4.9",
-    "aspect": "9/16",
-    "mp4": "/media_vault/commercial_047_damani_video2.mp4"
+    "sizeMb": "7.8",
+    "aspect": "9/16"
   },
   {
     "id": "vault-48",
@@ -574,11 +574,11 @@ export const VAULT_VIDEOS = [
     "category": "Commercial",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/commercial_048_hamley_video_re_3.webm",
+    "mp4": "/media_vault/commercial_048_hamley_video_re_3.mp4",
+    "video": "/media_vault/commercial_048_hamley_video_re_3.mp4",
     "poster": "/media_vault/commercial_048_hamley_video_re_3.webp",
-    "sizeMb": "5.3",
-    "aspect": "9/16",
-    "mp4": "/media_vault/commercial_048_hamley_video_re_3.mp4"
+    "sizeMb": "9.2",
+    "aspect": "9/16"
   },
   {
     "id": "vault-49",
@@ -586,11 +586,11 @@ export const VAULT_VIDEOS = [
     "category": "Commercial",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/commercial_049_network_fp_30_jan.webm",
+    "mp4": "/media_vault/commercial_049_network_fp_30_jan.mp4",
+    "video": "/media_vault/commercial_049_network_fp_30_jan.mp4",
     "poster": "/media_vault/commercial_049_network_fp_30_jan.webp",
-    "sizeMb": "31.0",
-    "aspect": "9/16",
-    "mp4": "/media_vault/commercial_049_network_fp_30_jan.mp4"
+    "sizeMb": "28.1",
+    "aspect": "9/16"
   },
   {
     "id": "vault-50",
@@ -598,11 +598,11 @@ export const VAULT_VIDEOS = [
     "category": "Commercial",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/commercial_050_network_fp_event_video1.webm",
+    "mp4": "/media_vault/commercial_050_network_fp_event_video1.mp4",
+    "video": "/media_vault/commercial_050_network_fp_event_video1.mp4",
     "poster": "/media_vault/commercial_050_network_fp_event_video1.webp",
-    "sizeMb": "17.9",
-    "aspect": "9/16",
-    "mp4": "/media_vault/commercial_050_network_fp_event_video1.mp4"
+    "sizeMb": "14.3",
+    "aspect": "9/16"
   },
   {
     "id": "vault-51",
@@ -610,11 +610,11 @@ export const VAULT_VIDEOS = [
     "category": "Commercial",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/commercial_051_sameet_chaudhary.webm",
+    "mp4": "/media_vault/commercial_051_sameet_chaudhary.mp4",
+    "video": "/media_vault/commercial_051_sameet_chaudhary.mp4",
     "poster": "/media_vault/commercial_051_sameet_chaudhary.webp",
-    "sizeMb": "12.6",
-    "aspect": "9/16",
-    "mp4": "/media_vault/commercial_051_sameet_chaudhary.mp4"
+    "sizeMb": "12.3",
+    "aspect": "9/16"
   },
   {
     "id": "vault-52",
@@ -622,11 +622,11 @@ export const VAULT_VIDEOS = [
     "category": "Commercial",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/commercial_052_vertical_video8_1.webm",
+    "mp4": "/media_vault/commercial_052_vertical_video8_1.mp4",
+    "video": "/media_vault/commercial_052_vertical_video8_1.mp4",
     "poster": "/media_vault/commercial_052_vertical_video8_1.webp",
-    "sizeMb": "6.1",
-    "aspect": "9/16",
-    "mp4": "/media_vault/commercial_052_vertical_video8_1.mp4"
+    "sizeMb": "9.0",
+    "aspect": "9/16"
   },
   {
     "id": "vault-53",
@@ -634,11 +634,11 @@ export const VAULT_VIDEOS = [
     "category": "Motion Graphics",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/motion_graphics_053_1.webm",
+    "mp4": "/media_vault/motion_graphics_053_1.mp4",
+    "video": "/media_vault/motion_graphics_053_1.mp4",
     "poster": "/media_vault/motion_graphics_053_1.webp",
-    "sizeMb": "1.3",
-    "aspect": "9/16",
-    "mp4": "/media_vault/motion_graphics_053_1.mp4"
+    "sizeMb": "1.1",
+    "aspect": "9/16"
   },
   {
     "id": "vault-54",
@@ -646,11 +646,11 @@ export const VAULT_VIDEOS = [
     "category": "Motion Graphics",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/motion_graphics_054_artboard_1.webm",
+    "mp4": "/media_vault/motion_graphics_054_artboard_1.mp4",
+    "video": "/media_vault/motion_graphics_054_artboard_1.mp4",
     "poster": "/media_vault/motion_graphics_054_artboard_1.webp",
-    "sizeMb": "1.7",
-    "aspect": "9/16",
-    "mp4": "/media_vault/motion_graphics_054_artboard_1.mp4"
+    "sizeMb": "1.2",
+    "aspect": "9/16"
   },
   {
     "id": "vault-55",
@@ -658,11 +658,11 @@ export const VAULT_VIDEOS = [
     "category": "Motion Graphics",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/motion_graphics_055_damani_christmas_reel_v3.webm",
+    "mp4": "/media_vault/motion_graphics_055_damani_christmas_reel_v3.mp4",
+    "video": "/media_vault/motion_graphics_055_damani_christmas_reel_v3.mp4",
     "poster": "/media_vault/motion_graphics_055_damani_christmas_reel_v3.webp",
-    "sizeMb": "0.9",
-    "aspect": "9/16",
-    "mp4": "/media_vault/motion_graphics_055_damani_christmas_reel_v3.mp4"
+    "sizeMb": "0.7",
+    "aspect": "9/16"
   },
   {
     "id": "vault-56",
@@ -670,11 +670,11 @@ export const VAULT_VIDEOS = [
     "category": "Motion Graphics",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/motion_graphics_056_damani_new_year_2026_3.webm",
+    "mp4": "/media_vault/motion_graphics_056_damani_new_year_2026_3.mp4",
+    "video": "/media_vault/motion_graphics_056_damani_new_year_2026_3.mp4",
     "poster": "/media_vault/motion_graphics_056_damani_new_year_2026_3.webp",
-    "sizeMb": "1.9",
-    "aspect": "9/16",
-    "mp4": "/media_vault/motion_graphics_056_damani_new_year_2026_3.mp4"
+    "sizeMb": "2.5",
+    "aspect": "9/16"
   },
   {
     "id": "vault-57",
@@ -682,11 +682,11 @@ export const VAULT_VIDEOS = [
     "category": "Motion Graphics",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/motion_graphics_057_damani_shivratri_video.webm",
+    "mp4": "/media_vault/motion_graphics_057_damani_shivratri_video.mp4",
+    "video": "/media_vault/motion_graphics_057_damani_shivratri_video.mp4",
     "poster": "/media_vault/motion_graphics_057_damani_shivratri_video.webp",
-    "sizeMb": "0.6",
-    "aspect": "9/16",
-    "mp4": "/media_vault/motion_graphics_057_damani_shivratri_video.mp4"
+    "sizeMb": "0.5",
+    "aspect": "9/16"
   },
   {
     "id": "vault-58",
@@ -694,11 +694,11 @@ export const VAULT_VIDEOS = [
     "category": "Motion Graphics",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/motion_graphics_058_lulu_mall_video.webm",
+    "mp4": "/media_vault/motion_graphics_058_lulu_mall_video.mp4",
+    "video": "/media_vault/motion_graphics_058_lulu_mall_video.mp4",
     "poster": "/media_vault/motion_graphics_058_lulu_mall_video.webp",
-    "sizeMb": "3.1",
-    "aspect": "9/16",
-    "mp4": "/media_vault/motion_graphics_058_lulu_mall_video.mp4"
+    "sizeMb": "3.3",
+    "aspect": "9/16"
   },
   {
     "id": "vault-59",
@@ -706,11 +706,11 @@ export const VAULT_VIDEOS = [
     "category": "Motion Graphics",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/motion_graphics_059_makarsakranti_slide_2_re.webm",
+    "mp4": "/media_vault/motion_graphics_059_makarsakranti_slide_2_re.mp4",
+    "video": "/media_vault/motion_graphics_059_makarsakranti_slide_2_re.mp4",
     "poster": "/media_vault/motion_graphics_059_makarsakranti_slide_2_re.webp",
-    "sizeMb": "0.8",
-    "aspect": "9/16",
-    "mp4": "/media_vault/motion_graphics_059_makarsakranti_slide_2_re.mp4"
+    "sizeMb": "0.7",
+    "aspect": "9/16"
   },
   {
     "id": "vault-60",
@@ -718,11 +718,11 @@ export const VAULT_VIDEOS = [
     "category": "Motion Graphics",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/motion_graphics_060_makarsakranti_slide1.webm",
+    "mp4": "/media_vault/motion_graphics_060_makarsakranti_slide1.mp4",
+    "video": "/media_vault/motion_graphics_060_makarsakranti_slide1.mp4",
     "poster": "/media_vault/motion_graphics_060_makarsakranti_slide1.webp",
-    "sizeMb": "1.4",
-    "aspect": "9/16",
-    "mp4": "/media_vault/motion_graphics_060_makarsakranti_slide1.mp4"
+    "sizeMb": "1.1",
+    "aspect": "9/16"
   },
   {
     "id": "vault-61",
@@ -730,11 +730,11 @@ export const VAULT_VIDEOS = [
     "category": "Motion Graphics",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/motion_graphics_061_map.webm",
+    "mp4": "/media_vault/motion_graphics_061_map.mp4",
+    "video": "/media_vault/motion_graphics_061_map.mp4",
     "poster": "/media_vault/motion_graphics_061_map.webp",
-    "sizeMb": "0.9",
-    "aspect": "16/9",
-    "mp4": "/media_vault/motion_graphics_061_map.mp4"
+    "sizeMb": "0.4",
+    "aspect": "16/9"
   },
   {
     "id": "vault-62",
@@ -742,11 +742,11 @@ export const VAULT_VIDEOS = [
     "category": "Motion Graphics",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/motion_graphics_062_navy_day.webm",
+    "mp4": "/media_vault/motion_graphics_062_navy_day.mp4",
+    "video": "/media_vault/motion_graphics_062_navy_day.mp4",
     "poster": "/media_vault/motion_graphics_062_navy_day.webp",
-    "sizeMb": "0.9",
-    "aspect": "9/16",
-    "mp4": "/media_vault/motion_graphics_062_navy_day.mp4"
+    "sizeMb": "0.8",
+    "aspect": "9/16"
   },
   {
     "id": "vault-63",
@@ -754,11 +754,11 @@ export const VAULT_VIDEOS = [
     "category": "Motion Graphics",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/motion_graphics_063_ndc_kanuma.webm",
+    "mp4": "/media_vault/motion_graphics_063_ndc_kanuma.mp4",
+    "video": "/media_vault/motion_graphics_063_ndc_kanuma.mp4",
     "poster": "/media_vault/motion_graphics_063_ndc_kanuma.webp",
-    "sizeMb": "1.5",
-    "aspect": "9/16",
-    "mp4": "/media_vault/motion_graphics_063_ndc_kanuma.mp4"
+    "sizeMb": "1.0",
+    "aspect": "9/16"
   },
   {
     "id": "vault-64",
@@ -766,11 +766,11 @@ export const VAULT_VIDEOS = [
     "category": "Motion Graphics",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/motion_graphics_064_ndc_makar_sakranti_2.webm",
+    "mp4": "/media_vault/motion_graphics_064_ndc_makar_sakranti_2.mp4",
+    "video": "/media_vault/motion_graphics_064_ndc_makar_sakranti_2.mp4",
     "poster": "/media_vault/motion_graphics_064_ndc_makar_sakranti_2.webp",
-    "sizeMb": "1.5",
-    "aspect": "9/16",
-    "mp4": "/media_vault/motion_graphics_064_ndc_makar_sakranti_2.mp4"
+    "sizeMb": "1.0",
+    "aspect": "9/16"
   },
   {
     "id": "vault-65",
@@ -778,11 +778,11 @@ export const VAULT_VIDEOS = [
     "category": "Motion Graphics",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/motion_graphics_065_ndc_mathematics_day.webm",
+    "mp4": "/media_vault/motion_graphics_065_ndc_mathematics_day.mp4",
+    "video": "/media_vault/motion_graphics_065_ndc_mathematics_day.mp4",
     "poster": "/media_vault/motion_graphics_065_ndc_mathematics_day.webp",
-    "sizeMb": "1.6",
-    "aspect": "9/16",
-    "mp4": "/media_vault/motion_graphics_065_ndc_mathematics_day.mp4"
+    "sizeMb": "1.1",
+    "aspect": "9/16"
   },
   {
     "id": "vault-66",
@@ -790,11 +790,11 @@ export const VAULT_VIDEOS = [
     "category": "Motion Graphics",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/motion_graphics_066_neeman.webm",
+    "mp4": "/media_vault/motion_graphics_066_neeman.mp4",
+    "video": "/media_vault/motion_graphics_066_neeman.mp4",
     "poster": "/media_vault/motion_graphics_066_neeman.webp",
-    "sizeMb": "1.1",
-    "aspect": "9/16",
-    "mp4": "/media_vault/motion_graphics_066_neeman.mp4"
+    "sizeMb": "0.7",
+    "aspect": "9/16"
   },
   {
     "id": "vault-67",
@@ -802,11 +802,11 @@ export const VAULT_VIDEOS = [
     "category": "Motion Graphics",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/motion_graphics_067_nines_new_year.webm",
+    "mp4": "/media_vault/motion_graphics_067_nines_new_year.mp4",
+    "video": "/media_vault/motion_graphics_067_nines_new_year.mp4",
     "poster": "/media_vault/motion_graphics_067_nines_new_year.webp",
-    "sizeMb": "0.3",
-    "aspect": "9/16",
-    "mp4": "/media_vault/motion_graphics_067_nines_new_year.mp4"
+    "sizeMb": "0.2",
+    "aspect": "9/16"
   },
   {
     "id": "vault-68",
@@ -814,11 +814,11 @@ export const VAULT_VIDEOS = [
     "category": "Motion Graphics",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/motion_graphics_068_nvn_makar_sakranti.webm",
+    "mp4": "/media_vault/motion_graphics_068_nvn_makar_sakranti.mp4",
+    "video": "/media_vault/motion_graphics_068_nvn_makar_sakranti.mp4",
     "poster": "/media_vault/motion_graphics_068_nvn_makar_sakranti.webp",
-    "sizeMb": "2.1",
-    "aspect": "9/16",
-    "mp4": "/media_vault/motion_graphics_068_nvn_makar_sakranti.mp4"
+    "sizeMb": "1.7",
+    "aspect": "9/16"
   },
   {
     "id": "vault-69",
@@ -826,11 +826,11 @@ export const VAULT_VIDEOS = [
     "category": "Motion Graphics",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/motion_graphics_069_penguine_reel_bignxt_28_jan_upda.webm",
+    "mp4": "/media_vault/motion_graphics_069_penguine_reel_bignxt_28_jan_upda.mp4",
+    "video": "/media_vault/motion_graphics_069_penguine_reel_bignxt_28_jan_upda.mp4",
     "poster": "/media_vault/motion_graphics_069_penguine_reel_bignxt_28_jan_upda.webp",
-    "sizeMb": "1.4",
-    "aspect": "9/16",
-    "mp4": "/media_vault/motion_graphics_069_penguine_reel_bignxt_28_jan_upda.mp4"
+    "sizeMb": "1.2",
+    "aspect": "9/16"
   },
   {
     "id": "vault-70",
@@ -838,11 +838,11 @@ export const VAULT_VIDEOS = [
     "category": "Motion Graphics",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/motion_graphics_070_s7.webm",
+    "mp4": "/media_vault/motion_graphics_070_s7.mp4",
+    "video": "/media_vault/motion_graphics_070_s7.mp4",
     "poster": "/media_vault/motion_graphics_070_s7.webp",
-    "sizeMb": "1.1",
-    "aspect": "9/16",
-    "mp4": "/media_vault/motion_graphics_070_s7.mp4"
+    "sizeMb": "1.0",
+    "aspect": "9/16"
   },
   {
     "id": "vault-71",
@@ -850,11 +850,11 @@ export const VAULT_VIDEOS = [
     "category": "Motion Graphics",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/motion_graphics_071_solspace_reel_cover_1.webm",
+    "mp4": "/media_vault/motion_graphics_071_solspace_reel_cover_1.mp4",
+    "video": "/media_vault/motion_graphics_071_solspace_reel_cover_1.mp4",
     "poster": "/media_vault/motion_graphics_071_solspace_reel_cover_1.webp",
-    "sizeMb": "0.9",
-    "aspect": "9/16",
-    "mp4": "/media_vault/motion_graphics_071_solspace_reel_cover_1.mp4"
+    "sizeMb": "0.7",
+    "aspect": "9/16"
   },
   {
     "id": "vault-72",
@@ -862,11 +862,11 @@ export const VAULT_VIDEOS = [
     "category": "Motion Graphics",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/motion_graphics_072_the_super_saver_store_video.webm",
+    "mp4": "/media_vault/motion_graphics_072_the_super_saver_store_video.mp4",
+    "video": "/media_vault/motion_graphics_072_the_super_saver_store_video.mp4",
     "poster": "/media_vault/motion_graphics_072_the_super_saver_store_video.webp",
-    "sizeMb": "0.6",
-    "aspect": "16/9",
-    "mp4": "/media_vault/motion_graphics_072_the_super_saver_store_video.mp4"
+    "sizeMb": "0.4",
+    "aspect": "16/9"
   },
   {
     "id": "vault-73",
@@ -874,11 +874,11 @@ export const VAULT_VIDEOS = [
     "category": "Motion Graphics",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/motion_graphics_073_toddelrs.webm",
+    "mp4": "/media_vault/motion_graphics_073_toddelrs.mp4",
+    "video": "/media_vault/motion_graphics_073_toddelrs.mp4",
     "poster": "/media_vault/motion_graphics_073_toddelrs.webp",
-    "sizeMb": "1.5",
-    "aspect": "9/16",
-    "mp4": "/media_vault/motion_graphics_073_toddelrs.mp4"
+    "sizeMb": "0.9",
+    "aspect": "9/16"
   },
   {
     "id": "vault-74",
@@ -886,11 +886,11 @@ export const VAULT_VIDEOS = [
     "category": "Motion Graphics",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/motion_graphics_074_vedshil_video.webm",
+    "mp4": "/media_vault/motion_graphics_074_vedshil_video.mp4",
+    "video": "/media_vault/motion_graphics_074_vedshil_video.mp4",
     "poster": "/media_vault/motion_graphics_074_vedshil_video.webp",
     "sizeMb": "0.4",
-    "aspect": "9/16",
-    "mp4": "/media_vault/motion_graphics_074_vedshil_video.mp4"
+    "aspect": "9/16"
   },
   {
     "id": "vault-75",
@@ -898,11 +898,11 @@ export const VAULT_VIDEOS = [
     "category": "Typography",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/typography_075_americal_video_1_final_high_qual.webm",
+    "mp4": "/media_vault/typography_075_americal_video_1_final_high_qual.mp4",
+    "video": "/media_vault/typography_075_americal_video_1_final_high_qual.mp4",
     "poster": "/media_vault/typography_075_americal_video_1_final_high_qual.webp",
-    "sizeMb": "7.2",
-    "aspect": "9/16",
-    "mp4": "/media_vault/typography_075_americal_video_1_final_high_qual.mp4"
+    "sizeMb": "7.3",
+    "aspect": "9/16"
   },
   {
     "id": "vault-76",
@@ -910,11 +910,11 @@ export const VAULT_VIDEOS = [
     "category": "Typography",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/typography_076_americal_video_2_final_high_qual.webm",
+    "mp4": "/media_vault/typography_076_americal_video_2_final_high_qual.mp4",
+    "video": "/media_vault/typography_076_americal_video_2_final_high_qual.mp4",
     "poster": "/media_vault/typography_076_americal_video_2_final_high_qual.webp",
-    "sizeMb": "8.2",
-    "aspect": "9/16",
-    "mp4": "/media_vault/typography_076_americal_video_2_final_high_qual.mp4"
+    "sizeMb": "9.0",
+    "aspect": "9/16"
   },
   {
     "id": "vault-77",
@@ -922,11 +922,11 @@ export const VAULT_VIDEOS = [
     "category": "Typography",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/typography_077_guidebook_re2.webm",
+    "mp4": "/media_vault/typography_077_guidebook_re2.mp4",
+    "video": "/media_vault/typography_077_guidebook_re2.mp4",
     "poster": "/media_vault/typography_077_guidebook_re2.webp",
-    "sizeMb": "4.6",
-    "aspect": "16/9",
-    "mp4": "/media_vault/typography_077_guidebook_re2.mp4"
+    "sizeMb": "4.1",
+    "aspect": "16/9"
   },
   {
     "id": "vault-78",
@@ -934,11 +934,11 @@ export const VAULT_VIDEOS = [
     "category": "Typography",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/typography_078_network_fp_2.webm",
+    "mp4": "/media_vault/typography_078_network_fp_2.mp4",
+    "video": "/media_vault/typography_078_network_fp_2.mp4",
     "poster": "/media_vault/typography_078_network_fp_2.webp",
-    "sizeMb": "6.9",
-    "aspect": "9/16",
-    "mp4": "/media_vault/typography_078_network_fp_2.mp4"
+    "sizeMb": "7.5",
+    "aspect": "9/16"
   },
   {
     "id": "vault-79",
@@ -946,11 +946,11 @@ export const VAULT_VIDEOS = [
     "category": "Typography",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/typography_079_network_fp_promo_4_dec.webm",
+    "mp4": "/media_vault/typography_079_network_fp_promo_4_dec.mp4",
+    "video": "/media_vault/typography_079_network_fp_promo_4_dec.mp4",
     "poster": "/media_vault/typography_079_network_fp_promo_4_dec.webp",
-    "sizeMb": "4.9",
-    "aspect": "9/16",
-    "mp4": "/media_vault/typography_079_network_fp_promo_4_dec.mp4"
+    "sizeMb": "5.3",
+    "aspect": "9/16"
   },
   {
     "id": "vault-80",
@@ -958,11 +958,11 @@ export const VAULT_VIDEOS = [
     "category": "Typography",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/typography_080_network_fp_silvertank.webm",
+    "mp4": "/media_vault/typography_080_network_fp_silvertank.mp4",
+    "video": "/media_vault/typography_080_network_fp_silvertank.mp4",
     "poster": "/media_vault/typography_080_network_fp_silvertank.webp",
-    "sizeMb": "7.3",
-    "aspect": "9/16",
-    "mp4": "/media_vault/typography_080_network_fp_silvertank.mp4"
+    "sizeMb": "8.2",
+    "aspect": "9/16"
   },
   {
     "id": "vault-81",
@@ -970,11 +970,11 @@ export const VAULT_VIDEOS = [
     "category": "Typography",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/typography_081_network_fp_teaser_1.webm",
+    "mp4": "/media_vault/typography_081_network_fp_teaser_1.mp4",
+    "video": "/media_vault/typography_081_network_fp_teaser_1.mp4",
     "poster": "/media_vault/typography_081_network_fp_teaser_1.webp",
-    "sizeMb": "5.1",
-    "aspect": "16/9",
-    "mp4": "/media_vault/typography_081_network_fp_teaser_1.mp4"
+    "sizeMb": "6.7",
+    "aspect": "16/9"
   },
   {
     "id": "vault-82",
@@ -982,11 +982,11 @@ export const VAULT_VIDEOS = [
     "category": "Typography",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/typography_082_network_fp.webm",
+    "mp4": "/media_vault/typography_082_network_fp.mp4",
+    "video": "/media_vault/typography_082_network_fp.mp4",
     "poster": "/media_vault/typography_082_network_fp.webp",
-    "sizeMb": "6.7",
-    "aspect": "9/16",
-    "mp4": "/media_vault/typography_082_network_fp.mp4"
+    "sizeMb": "7.2",
+    "aspect": "9/16"
   },
   {
     "id": "vault-83",
@@ -994,11 +994,11 @@ export const VAULT_VIDEOS = [
     "category": "Typography",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/typography_083_networkfp_2026_final_video.webm",
+    "mp4": "/media_vault/typography_083_networkfp_2026_final_video.mp4",
+    "video": "/media_vault/typography_083_networkfp_2026_final_video.mp4",
     "poster": "/media_vault/typography_083_networkfp_2026_final_video.webp",
-    "sizeMb": "36.4",
-    "aspect": "16/9",
-    "mp4": "/media_vault/typography_083_networkfp_2026_final_video.mp4"
+    "sizeMb": "38.3",
+    "aspect": "16/9"
   },
   {
     "id": "vault-84",
@@ -1006,11 +1006,11 @@ export const VAULT_VIDEOS = [
     "category": "Typography",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/typography_084_reel_11_sold_by_su.webm",
+    "mp4": "/media_vault/typography_084_reel_11_sold_by_su.mp4",
+    "video": "/media_vault/typography_084_reel_11_sold_by_su.mp4",
     "poster": "/media_vault/typography_084_reel_11_sold_by_su.webp",
-    "sizeMb": "10.2",
-    "aspect": "9/16",
-    "mp4": "/media_vault/typography_084_reel_11_sold_by_su.mp4"
+    "sizeMb": "11.9",
+    "aspect": "9/16"
   },
   {
     "id": "vault-85",
@@ -1018,11 +1018,11 @@ export const VAULT_VIDEOS = [
     "category": "Typography",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/typography_085_reel_14_top_8_villa.webm",
+    "mp4": "/media_vault/typography_085_reel_14_top_8_villa.mp4",
+    "video": "/media_vault/typography_085_reel_14_top_8_villa.mp4",
     "poster": "/media_vault/typography_085_reel_14_top_8_villa.webp",
-    "sizeMb": "18.0",
-    "aspect": "9/16",
-    "mp4": "/media_vault/typography_085_reel_14_top_8_villa.mp4"
+    "sizeMb": "20.9",
+    "aspect": "9/16"
   },
   {
     "id": "vault-86",
@@ -1030,11 +1030,11 @@ export const VAULT_VIDEOS = [
     "category": "Typography",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/typography_086_reel_5.webm",
+    "mp4": "/media_vault/typography_086_reel_5.mp4",
+    "video": "/media_vault/typography_086_reel_5.mp4",
     "poster": "/media_vault/typography_086_reel_5.webp",
-    "sizeMb": "7.2",
-    "aspect": "9/16",
-    "mp4": "/media_vault/typography_086_reel_5.mp4"
+    "sizeMb": "6.8",
+    "aspect": "9/16"
   },
   {
     "id": "vault-87",
@@ -1042,11 +1042,11 @@ export const VAULT_VIDEOS = [
     "category": "Typography",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/typography_087_reel_trending_style.webm",
+    "mp4": "/media_vault/typography_087_reel_trending_style.mp4",
+    "video": "/media_vault/typography_087_reel_trending_style.mp4",
     "poster": "/media_vault/typography_087_reel_trending_style.webp",
-    "sizeMb": "6.1",
-    "aspect": "9/16",
-    "mp4": "/media_vault/typography_087_reel_trending_style.mp4"
+    "sizeMb": "8.5",
+    "aspect": "9/16"
   },
   {
     "id": "vault-88",
@@ -1054,11 +1054,11 @@ export const VAULT_VIDEOS = [
     "category": "Typography",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/typography_088_reel1_strong_woman_sold_by_su.webm",
+    "mp4": "/media_vault/typography_088_reel1_strong_woman_sold_by_su.mp4",
+    "video": "/media_vault/typography_088_reel1_strong_woman_sold_by_su.mp4",
     "poster": "/media_vault/typography_088_reel1_strong_woman_sold_by_su.webp",
     "sizeMb": "7.2",
-    "aspect": "9/16",
-    "mp4": "/media_vault/typography_088_reel1_strong_woman_sold_by_su.mp4"
+    "aspect": "9/16"
   },
   {
     "id": "vault-89",
@@ -1066,11 +1066,11 @@ export const VAULT_VIDEOS = [
     "category": "Typography",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/typography_089_reel6_v2.webm",
+    "mp4": "/media_vault/typography_089_reel6_v2.mp4",
+    "video": "/media_vault/typography_089_reel6_v2.mp4",
     "poster": "/media_vault/typography_089_reel6_v2.webp",
-    "sizeMb": "6.9",
-    "aspect": "9/16",
-    "mp4": "/media_vault/typography_089_reel6_v2.mp4"
+    "sizeMb": "7.1",
+    "aspect": "9/16"
   },
   {
     "id": "vault-90",
@@ -1078,11 +1078,11 @@ export const VAULT_VIDEOS = [
     "category": "Typography",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/typography_090_sep_beyond_acres_r1_1.webm",
+    "mp4": "/media_vault/typography_090_sep_beyond_acres_r1_1.mp4",
+    "video": "/media_vault/typography_090_sep_beyond_acres_r1_1.mp4",
     "poster": "/media_vault/typography_090_sep_beyond_acres_r1_1.webp",
-    "sizeMb": "8.3",
-    "aspect": "9/16",
-    "mp4": "/media_vault/typography_090_sep_beyond_acres_r1_1.mp4"
+    "sizeMb": "12.7",
+    "aspect": "9/16"
   },
   {
     "id": "vault-91",
@@ -1090,11 +1090,11 @@ export const VAULT_VIDEOS = [
     "category": "Typography",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/typography_091_sep_dmc_r1.webm",
+    "mp4": "/media_vault/typography_091_sep_dmc_r1.mp4",
+    "video": "/media_vault/typography_091_sep_dmc_r1.mp4",
     "poster": "/media_vault/typography_091_sep_dmc_r1.webp",
-    "sizeMb": "10.5",
-    "aspect": "9/16",
-    "mp4": "/media_vault/typography_091_sep_dmc_r1.mp4"
+    "sizeMb": "11.8",
+    "aspect": "9/16"
   },
   {
     "id": "vault-92",
@@ -1102,11 +1102,11 @@ export const VAULT_VIDEOS = [
     "category": "Typography",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/typography_092_sold_by_su_1.webm",
+    "mp4": "/media_vault/typography_092_sold_by_su_1.mp4",
+    "video": "/media_vault/typography_092_sold_by_su_1.mp4",
     "poster": "/media_vault/typography_092_sold_by_su_1.webp",
-    "sizeMb": "10.7",
-    "aspect": "9/16",
-    "mp4": "/media_vault/typography_092_sold_by_su_1.mp4"
+    "sizeMb": "9.3",
+    "aspect": "9/16"
   },
   {
     "id": "vault-93",
@@ -1114,11 +1114,11 @@ export const VAULT_VIDEOS = [
     "category": "Typography",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/typography_093_sold_by_su_intro_reel_2_1.webm",
+    "mp4": "/media_vault/typography_093_sold_by_su_intro_reel_2_1.mp4",
+    "video": "/media_vault/typography_093_sold_by_su_intro_reel_2_1.mp4",
     "poster": "/media_vault/typography_093_sold_by_su_intro_reel_2_1.webp",
-    "sizeMb": "7.3",
-    "aspect": "9/16",
-    "mp4": "/media_vault/typography_093_sold_by_su_intro_reel_2_1.mp4"
+    "sizeMb": "8.2",
+    "aspect": "9/16"
   },
   {
     "id": "vault-94",
@@ -1126,11 +1126,11 @@ export const VAULT_VIDEOS = [
     "category": "Typography",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/typography_094_su_reel_3.webm",
+    "mp4": "/media_vault/typography_094_su_reel_3.mp4",
+    "video": "/media_vault/typography_094_su_reel_3.mp4",
     "poster": "/media_vault/typography_094_su_reel_3.webp",
-    "sizeMb": "8.9",
-    "aspect": "9/16",
-    "mp4": "/media_vault/typography_094_su_reel_3.mp4"
+    "sizeMb": "8.7",
+    "aspect": "9/16"
   },
   {
     "id": "vault-95",
@@ -1138,11 +1138,11 @@ export const VAULT_VIDEOS = [
     "category": "Typography",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/typography_095_teaser_3_the_community_moment.webm",
+    "mp4": "/media_vault/typography_095_teaser_3_the_community_moment.mp4",
+    "video": "/media_vault/typography_095_teaser_3_the_community_moment.mp4",
     "poster": "/media_vault/typography_095_teaser_3_the_community_moment.webp",
-    "sizeMb": "4.4",
-    "aspect": "16/9",
-    "mp4": "/media_vault/typography_095_teaser_3_the_community_moment.mp4"
+    "sizeMb": "6.0",
+    "aspect": "16/9"
   },
   {
     "id": "vault-96",
@@ -1150,11 +1150,11 @@ export const VAULT_VIDEOS = [
     "category": "Typography",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/typography_096_teaser_5_the_countdown_mindset_1.webm",
+    "mp4": "/media_vault/typography_096_teaser_5_the_countdown_mindset_1.mp4",
+    "video": "/media_vault/typography_096_teaser_5_the_countdown_mindset_1.mp4",
     "poster": "/media_vault/typography_096_teaser_5_the_countdown_mindset_1.webp",
-    "sizeMb": "4.6",
-    "aspect": "16/9",
-    "mp4": "/media_vault/typography_096_teaser_5_the_countdown_mindset_1.mp4"
+    "sizeMb": "5.2",
+    "aspect": "16/9"
   },
   {
     "id": "vault-97",
@@ -1162,11 +1162,11 @@ export const VAULT_VIDEOS = [
     "category": "Typography",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/typography_097_teasor_6_raw.webm",
+    "mp4": "/media_vault/typography_097_teasor_6_raw.mp4",
+    "video": "/media_vault/typography_097_teasor_6_raw.mp4",
     "poster": "/media_vault/typography_097_teasor_6_raw.webp",
-    "sizeMb": "5.5",
-    "aspect": "16/9",
-    "mp4": "/media_vault/typography_097_teasor_6_raw.mp4"
+    "sizeMb": "6.3",
+    "aspect": "16/9"
   },
   {
     "id": "vault-98",
@@ -1174,11 +1174,11 @@ export const VAULT_VIDEOS = [
     "category": "Typography",
     "client": "Vault Archive",
     "year": "2026",
-    "webm": "/media_vault/typography_098_trader_video1.webm",
+    "mp4": "/media_vault/typography_098_trader_video1.mp4",
+    "video": "/media_vault/typography_098_trader_video1.mp4",
     "poster": "/media_vault/typography_098_trader_video1.webp",
-    "sizeMb": "3.4",
-    "aspect": "9/16",
-    "mp4": "/media_vault/typography_098_trader_video1.mp4"
+    "sizeMb": "3.6",
+    "aspect": "9/16"
   }
 ];
 

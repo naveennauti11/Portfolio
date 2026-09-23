@@ -7,63 +7,54 @@ const HORIZONTAL_PLAYLIST = [
   {
     title: 'Jewel Builders: Mumbai Sea Link',
     category: 'Cinematic Architectural',
-    webm: '/media_vault/ai_video_002_4_aug_cinematic3.webm',
     mp4: '/media_vault/ai_video_002_4_aug_cinematic3.mp4',
     poster: '/media_vault/ai_video_002_4_aug_cinematic3.webp'
   },
   {
     title: 'Cinematic Road Cycling Action',
     category: 'Cinematic Sports',
-    webm: '/media_vault/cinematic_034_bcaa_video_final2.webm',
     mp4: '/media_vault/cinematic_034_bcaa_video_final2.mp4',
     poster: '/media_vault/cinematic_034_bcaa_video_final2.webp'
   },
   {
     title: 'Stay Vista: Luxury Estate',
     category: 'Commercial Hospitality',
-    webm: '/media_vault/cinematic_045_stay_vista_14.webm',
     mp4: '/media_vault/cinematic_045_stay_vista_14.mp4',
     poster: '/media_vault/cinematic_045_stay_vista_14.webp'
   },
   {
     title: 'Jewel Builders: Architectural Cinema',
     category: 'Cinematic Commercial',
-    webm: '/media_vault/ai_video_003_4aug_jewel_cinematic_4.webm',
     mp4: '/media_vault/ai_video_003_4aug_jewel_cinematic_4.mp4',
     poster: '/media_vault/ai_video_003_4aug_jewel_cinematic_4.webp'
   },
   {
     title: 'Neural Horizon Generative World',
     category: 'AI Visuals',
-    webm: '/media_vault/ai_video_012_44.webm',
     mp4: '/media_vault/ai_video_012_44.mp4',
     poster: '/media_vault/ai_video_012_44.webp'
   },
   {
     title: 'Livey Brand Showcase Cut',
     category: 'Commercial AI',
-    webm: '/media_vault/ai_video_025_livey_2min.webm',
     mp4: '/media_vault/ai_video_025_livey_2min.mp4',
     poster: '/media_vault/ai_video_025_livey_2min.webp'
   },
   {
     title: 'Upila Brand Motion Architecture',
     category: 'Motion Visuals',
-    webm: '/media_vault/ai_video_032_upila_video_1_2_jan_mg.webm',
     mp4: '/media_vault/ai_video_032_upila_video_1_2_jan_mg.mp4',
     poster: '/media_vault/ai_video_032_upila_video_1_2_jan_mg.webp'
   },
   {
     title: 'Territory Network System',
     category: 'Motion Graphics',
-    webm: '/media_vault/motion_graphics_061_map.webm',
     mp4: '/media_vault/motion_graphics_061_map.mp4',
     poster: '/media_vault/motion_graphics_061_map.webp'
   },
   {
     title: 'Super Saver Retail Sequence',
     category: 'Motion Graphics',
-    webm: '/media_vault/motion_graphics_072_the_super_saver_store_video.webm',
     mp4: '/media_vault/motion_graphics_072_the_super_saver_store_video.mp4',
     poster: '/media_vault/motion_graphics_072_the_super_saver_store_video.webp'
   }
@@ -184,8 +175,7 @@ export default function Hero({ onWatchReel }) {
             activeSlot === 'A' ? 'opacity-100 z-10' : 'opacity-0 z-0'
           }`}
         >
-          <source src={videoA.mp4 || videoA.webm.replace(/\.webm$/i, '.mp4')} type="video/mp4" />
-          <source src={videoA.webm} type="video/webm" />
+          <source src={videoA.mp4} type="video/mp4" />
         </video>
 
         {/* Video Buffer Slot B */}
@@ -200,8 +190,7 @@ export default function Hero({ onWatchReel }) {
             activeSlot === 'B' ? 'opacity-100 z-10' : 'opacity-0 z-0'
           }`}
         >
-          <source src={videoB.mp4 || videoB.webm.replace(/\.webm$/i, '.mp4')} type="video/mp4" />
-          <source src={videoB.webm} type="video/webm" />
+          <source src={videoB.mp4} type="video/mp4" />
         </video>
 
         {/* Cinematic Vignette & Radial Overlays for Razor-Sharp Typography Contrast */}

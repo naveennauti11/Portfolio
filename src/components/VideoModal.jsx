@@ -129,8 +129,7 @@ export default function VideoModal({ video, onClose }) {
               className="w-full h-full object-contain bg-black cursor-pointer"
               onClick={togglePlay}
             >
-              <source src={video.mp4 || video.webm?.replace(/\.webm$/i, '.mp4')} type="video/mp4" />
-              <source src={video.webm} type="video/webm" />
+              <source src={video.mp4 || video.video || (video.webm ? video.webm.replace(/\.webm$/i, '.mp4') : '')} type="video/mp4" />
             </video>
 
             {/* Buffering Loading Spinner */}
