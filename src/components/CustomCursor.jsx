@@ -7,7 +7,7 @@ export default function CustomCursor() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    // Check if device supports fine hover (desktop)
+    // Disable on touch screens or mobile
     if (window.matchMedia('(pointer: coarse)').matches) {
       return;
     }
@@ -16,16 +16,40 @@ export default function CustomCursor() {
     let mouseY = -100;
     let ringX = -100;
     let ringY = -100;
-    let animationFrameId;
+    let isRunning = false;
+    let animationFrameId = null;
+
+    const render = () => {
+      ringX += (mouseX - ringX) * 0.22;
+      ringY += (mouseY - ringY) * 0.22;
+
+      if (ringRef.current) {
+        ringRef.current.style.transform = `translate3d(${ringX - 18}px, ${ringY - 18}px, 0)`;
+      }
+
+      // If ring is close to mouse, stop the loop to save 100% CPU when idle
+      if (Math.abs(mouseX - ringX) > 0.2 || Math.abs(mouseY - ringY) > 0.2) {
+        animationFrameId = requestAnimationFrame(render);
+      } else {
+        isRunning = false;
+        animationFrameId = null;
+      }
+    };
 
     const onMouseMove = (e) => {
       mouseX = e.clientX;
       mouseY = e.clientY;
       if (!isVisible) setIsVisible(true);
 
-      // Instant 1:1 hardware update for the pinpoint center dot
+      // Instant 1:1 hardware update for dot
       if (dotRef.current) {
         dotRef.current.style.transform = `translate3d(${mouseX - 3}px, ${mouseY - 3}px, 0)`;
+      }
+
+      // Wake up ring lerp loop only when mouse moves
+      if (!isRunning) {
+        isRunning = true;
+        animationFrameId = requestAnimationFrame(render);
       }
     };
 
@@ -44,26 +68,13 @@ export default function CustomCursor() {
       }
     };
 
-    // Smooth lerp loop for the outer halo (0.18 lerp factor = velvety smooth, no spring snaps)
-    const render = () => {
-      ringX += (mouseX - ringX) * 0.18;
-      ringY += (mouseY - ringY) * 0.18;
-
-      if (ringRef.current) {
-        ringRef.current.style.transform = `translate3d(${ringX - 18}px, ${ringY - 18}px, 0)`;
-      }
-
-      animationFrameId = requestAnimationFrame(render);
-    };
-
     window.addEventListener('mousemove', onMouseMove, { passive: true });
     window.addEventListener('mouseover', onMouseOver, { passive: true });
-    animationFrameId = requestAnimationFrame(render);
 
     return () => {
       window.removeEventListener('mousemove', onMouseMove);
       window.removeEventListener('mouseover', onMouseOver);
-      cancelAnimationFrame(animationFrameId);
+      if (animationFrameId) cancelAnimationFrame(animationFrameId);
     };
   }, [isVisible]);
 
@@ -74,20 +85,19 @@ export default function CustomCursor() {
       {/* 1:1 Pinpoint Center Dot */}
       <div
         ref={dotRef}
-        className="fixed top-0 left-0 w-1.5 h-1.5 rounded-full bg-[#FFBD59] pointer-events-none z-[99999] will-change-transform hidden md:block"
-        style={{
-          boxShadow: '0 0 8px rgba(255, 189, 89, 0.8)'
-        }}
+        className="fixed top-0 left-0 w-1.5 h-1.5 rounded-full bg-[#FFBD59] pointer-events-none z-50 mix-blend-difference"
+        style={{ willChange: 'transform' }}
       />
 
-      {/* Velvety Smooth Trailing Ring (No erratic spring accelerations) */}
+      {/* Smooth Lag Outer Halo */}
       <div
         ref={ringRef}
-        className={`fixed top-0 left-0 w-9 h-9 rounded-full border border-[#FFBD59]/50 bg-[#FFBD59]/[0.04] pointer-events-none z-[99998] will-change-transform transition-[width,height,opacity,border-color] duration-200 hidden md:block ${
-          isHovered 
-            ? 'scale-125 border-[#FFBD59] bg-[#FFBD59]/15' 
-            : 'scale-100 opacity-60'
+        className={`fixed top-0 left-0 rounded-full pointer-events-none z-50 transition-all duration-200 border ${
+          isHovered
+            ? 'w-12 h-12 -translate-x-1.5 -translate-y-1.5 bg-[#FFBD59]/15 border-[#FFBD59]/80 scale-110 shadow-[0_0_20px_rgba(255,189,89,0.4)]'
+            : 'w-9 h-9 bg-transparent border-white/40 scale-100'
         }`}
+        style={{ willChange: 'transform' }}
       />
     </>
   );

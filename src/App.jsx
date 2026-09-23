@@ -76,17 +76,17 @@ export default function App() {
         {/* 0. Cinematic Opening Title Cover (Concept B: Split Editorial with Parallax Depth) */}
         <CinematicHeroCover />
 
-        {/* 1. Hero: Film + Manifesto Merged (Signature #1) */}
+        {/* 1. Hero: Film + Manifesto Merged (Signature #1: Crafting Stories Through Video Editing) */}
         <Hero onWatchReel={handleWatchReel} />
 
-        {/* 2. Selected Work → Flagship Case Studies (Signature #2) */}
+        {/* 2. Motion Parade: Continuous 2x Forward Moving Reel (Right after Crafting Stories) */}
+        <LivingVerticalStrip onSelectVideo={(video) => setActiveModalVideo(video)} />
+
+        {/* 3. Selected Work -> Flagship Case Studies (Signature #2) */}
         <SelectedWork 
           onOpenCaseStudy={(cs) => setActiveCaseStudy(cs)} 
           onOpenArchiveVideo={(vid) => setActiveModalVideo(vid)}
         />
-
-        {/* 3. Motion Parade: CSS Native Scroll-Snap (Restrained #1) */}
-        <LivingVerticalStrip onSelectVideo={(video) => setActiveModalVideo(video)} />
 
         {/* 4. Process: 4 Stage Typographic Flow (Restrained #2) */}
         <ProcessSection />

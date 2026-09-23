@@ -1,10 +1,8 @@
-import React, { useState, useRef } from 'react';
+import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { ArrowDown, ArrowUpRight, Film, Sparkles, Volume2, VolumeX, Play } from 'lucide-react';
+import { ArrowDown, ArrowUpRight } from 'lucide-react';
 
 export default function CinematicHeroCover() {
-  const [isMuted, setIsMuted] = useState(true);
-  const videoRef = useRef(null);
   const sectionRef = useRef(null);
 
   const { scrollYProgress } = useScroll({
@@ -12,18 +10,9 @@ export default function CinematicHeroCover() {
     offset: ['start start', 'end start']
   });
 
-  // Concept B subtle parallax scrollytelling depth
   const cardY = useTransform(scrollYProgress, [0, 1], [0, 60]);
   const textY = useTransform(scrollYProgress, [0, 1], [0, -30]);
   const opacity = useTransform(scrollYProgress, [0, 0.85], [1, 0.2]);
-
-  const toggleSound = (e) => {
-    e.stopPropagation();
-    if (videoRef.current) {
-      videoRef.current.muted = !videoRef.current.muted;
-      setIsMuted(videoRef.current.muted);
-    }
-  };
 
   const scrollToMotionParade = () => {
     const el = document.getElementById('motion-parade') || document.getElementById('selected-work');
@@ -143,33 +132,18 @@ export default function CinematicHeroCover() {
           {/* Subtle Ambient Backing Glow */}
           <div className="absolute -inset-4 bg-gradient-to-r from-[#FFBD59]/20 to-amber-600/10 rounded-3xl blur-2xl -z-10 pointer-events-none" />
 
-          {/* Cinema Card Container */}
+          {/* Editorial Portrait Card Container */}
           <div className="relative w-full max-w-[420px] aspect-[3/4] rounded-3xl overflow-hidden bg-[#111111] border border-white/15 shadow-[0_25px_70px_rgba(0,0,0,0.85)] group">
             
-            {/* The Video Canvas (Ready for user video file with seamless poster fallback) */}
-            <video
-              ref={videoRef}
-              autoPlay
-              muted={isMuted}
-              loop
-              playsInline
-              poster="/downloads/base_frame_00.webp"
+            {/* Naveen's Portrait Image */}
+            <img
+              src="/images/naveen_portrait.webp"
+              onError={(e) => { e.currentTarget.src = '/downloads/base_frame_00.webp'; }}
+              alt="Naveen Nautiyal"
               className="w-full h-full object-cover object-top filter brightness-[0.92] contrast-[1.06] group-hover:scale-[1.03] transition-transform duration-700 ease-out"
-            >
-              <source src="/videos/hero_portrait.mp4" type="video/mp4" />
-              <source src="/videos/hero_portrait.webm" type="video/webm" />
-              <source src="/videos/naveen_hero.mp4" type="video/mp4" />
-              <source src="/videos/naveen_hero.webm" type="video/webm" />
-              <source src="/hero_video.mp4" type="video/mp4" />
-              <source src="/hero_video.webm" type="video/webm" />
-              <img
-                src="/downloads/base_frame_00.webp"
-                alt="Naveen Nautiyal Portrait"
-                className="w-full h-full object-cover object-top filter brightness-[0.88] contrast-[1.08]"
-              />
-            </video>
+            />
 
-            {/* Subtle Vignette on edges so video blends softly */}
+            {/* Subtle Vignette on edges so image blends softly */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/20 pointer-events-none" />
 
             {/* Corner Viewfinder Crop Marks */}
@@ -178,27 +152,13 @@ export default function CinematicHeroCover() {
             <div className="absolute bottom-4 left-4 w-4 h-4 border-b-2 border-l-2 border-[#FFBD59]/70 pointer-events-none" />
             <div className="absolute bottom-4 right-4 w-4 h-4 border-b-2 border-r-2 border-[#FFBD59]/70 pointer-events-none" />
 
-            {/* Top Right Sound Toggle */}
-            <button
-              onClick={toggleSound}
-              className="absolute top-4 right-4 z-20 p-2 rounded-full bg-black/75 backdrop-blur-md border border-white/20 text-white/80 hover:text-white hover:border-[#FFBD59] transition-all duration-300 shadow-md"
-              title={isMuted ? "Unmute video audio" : "Mute video audio"}
-              data-cursor-hover="true"
-            >
-              {isMuted ? (
-                <VolumeX className="w-3.5 h-3.5 text-white/70" />
-              ) : (
-                <Volume2 className="w-3.5 h-3.5 text-[#FFBD59]" />
-              )}
-            </button>
-
             {/* Bottom Floating Status Chip */}
-            <div className="absolute bottom-5 inset-x-5 flex items-center justify-between px-3.5 py-2 rounded-xl bg-black/75 backdrop-blur-md border border-white/10 text-[10px] font-mono text-white/80">
+            <div className="absolute bottom-5 inset-x-5 flex items-center justify-between px-3.5 py-2 rounded-xl bg-black/80 backdrop-blur-md border border-white/10 text-[10px] font-mono text-white/80">
               <div className="flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
-                <span className="text-white font-bold">REC // RAW 4K</span>
+                <span className="w-2 h-2 rounded-full bg-[#FFBD59] animate-pulse" />
+                <span className="text-white font-bold tracking-wider">CREATIVE LEAD</span>
               </div>
-              <span className="text-[#FFBD59]">NAVEEN NAUTIYAL</span>
+              <span className="text-[#FFBD59] tracking-wider uppercase font-semibold">NAVEEN NAUTIYAL</span>
             </div>
 
           </div>

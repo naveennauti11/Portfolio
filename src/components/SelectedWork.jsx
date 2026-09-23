@@ -4,8 +4,8 @@ import { SELECTED_CASE_STUDIES } from '../data/portfolioData';
 import { VAULT_VIDEOS, VAULT_CATEGORIES } from '../data/vaultManifest';
 
 export default function SelectedWork({ onOpenCaseStudy, onOpenArchiveVideo }) {
-  const [archiveOpen, setArchiveOpen] = useState(false);
-  const [selectedArchiveCategory, setSelectedArchiveCategory] = useState('all');
+  const [archiveOpen, setArchiveOpen] = useState(true);
+  const [selectedArchiveCategory, setSelectedArchiveCategory] = useState('cinematic');
   const [searchQuery, setSearchQuery] = useState('');
 
   return (
