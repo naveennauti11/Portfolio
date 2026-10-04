@@ -28,13 +28,13 @@ This document is the single source of truth for design, media, and architectural
 
 3. **2. Motion Parade (`LivingVerticalStrip.jsx`)**:
    * Placed **DIRECTLY AFTER Crafting Stories**.
-   * Speed: Always initialized at **2x Speed** by default (with active gold toggle badge).
+   * Speed: Default **1x Normal Speed** for calm video viewing (with optional 2x speed toggle).
    * Engine: 100% GPU Hardware-Accelerated CSS Marquee (`transform: translate3d`) for 0% CPU usage and rock-solid 60-120fps.
    * Hover pauses marquee; clicking opens video modal with full audio.
 
 4. **3. Selected Work (`SelectedWork.jsx`)**:
    * 4 Flagship Case Studies with deep dive modals.
-   * **Complete Vault Archive Drawer**: **OPEN BY DEFAULT**, displaying the **Cinematic** video category filter automatically to showcase full video variety right away. Can be collapsed by the user if desired.
+   * **Complete Vault Archive Drawer**: **OPEN BY DEFAULT**, pre-selecting **ALL VAULT CUTS (98)** so full variety of work is immediately visible. Compact sizing on mobile for easy scrolling. Can be collapsed by the user if desired.
 
 5. **4. Process, Arsenal, About & Contact**:
    * Process flow, tool capability radar, editorial timeline, service tiers, inquiry contact modal.
