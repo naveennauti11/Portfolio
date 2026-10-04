@@ -57,7 +57,7 @@ export default function CinematicHeroCover() {
           </div>
 
           {/* Master Display Name */}
-          <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-[4.6rem] xl:text-[5.8rem] 2xl:text-[6.8rem] font-display font-black text-white tracking-tight uppercase leading-[0.92] drop-shadow-2xl">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[3.2rem] xl:text-[4.2rem] 2xl:text-[5.2rem] font-display font-black text-white tracking-tight uppercase leading-[0.95] drop-shadow-2xl">
             NAVEEN <br />
             <span className="inline-block whitespace-nowrap text-transparent bg-clip-text bg-gradient-to-r from-white via-white/95 to-[#FFBD59]">
               NAUTIYAL
@@ -127,13 +127,13 @@ export default function CinematicHeroCover() {
         {/* Right Column: Concept B Cinematic Video Card with Parallax Depth */}
         <motion.div 
           style={{ y: cardY }}
-          className="lg:col-span-5 flex justify-center items-center relative"
+          className="lg:col-span-5 flex justify-center lg:justify-end items-center relative"
         >
           {/* Subtle Ambient Backing Glow */}
           <div className="absolute -inset-4 bg-gradient-to-r from-[#FFBD59]/20 to-amber-600/10 rounded-3xl blur-2xl -z-10 pointer-events-none" />
 
           {/* Editorial Portrait Card Container */}
-          <div className="relative w-full max-w-[420px] aspect-[3/4] rounded-3xl overflow-hidden bg-[#111111] border border-white/15 shadow-[0_25px_70px_rgba(0,0,0,0.85)] group">
+          <div className="relative w-full max-w-[340px] sm:max-w-[370px] xl:max-w-[390px] aspect-[3/4] rounded-3xl overflow-hidden bg-[#111111] border border-white/15 shadow-[0_25px_70px_rgba(0,0,0,0.85)] group">
             
             {/* Naveen's Portrait Image */}
             <img

@@ -88,7 +88,7 @@ export default function CustomCursor() {
   if (!isVisible) return null;
 
   return (
-    <>
+    <div className="hidden lg:block">
       {/* 1:1 Precision Core Dot (Sleek luxury amber gold, zero awkward wire circle) */}
       <div
         ref={dotRef}
@@ -110,6 +110,6 @@ export default function CustomCursor() {
         }`}
         style={{ willChange: 'transform' }}
       />
-    </>
+    </div>
   );
 }
