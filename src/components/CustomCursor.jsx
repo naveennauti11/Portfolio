@@ -2,8 +2,9 @@ import React, { useEffect, useRef, useState } from 'react';
 
 export default function CustomCursor() {
   const dotRef = useRef(null);
-  const ringRef = useRef(null);
+  const auraRef = useRef(null);
   const [isHovered, setIsHovered] = useState(false);
+  const [isClicking, setIsClicking] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -14,21 +15,20 @@ export default function CustomCursor() {
 
     let mouseX = -100;
     let mouseY = -100;
-    let ringX = -100;
-    let ringY = -100;
+    let auraX = -100;
+    let auraY = -100;
     let isRunning = false;
     let animationFrameId = null;
 
     const render = () => {
-      ringX += (mouseX - ringX) * 0.22;
-      ringY += (mouseY - ringY) * 0.22;
+      auraX += (mouseX - auraX) * 0.28;
+      auraY += (mouseY - auraY) * 0.28;
 
-      if (ringRef.current) {
-        ringRef.current.style.transform = `translate3d(${ringX - 18}px, ${ringY - 18}px, 0)`;
+      if (auraRef.current) {
+        auraRef.current.style.transform = `translate3d(${auraX}px, ${auraY}px, 0)`;
       }
 
-      // If ring is close to mouse, stop the loop to save 100% CPU when idle
-      if (Math.abs(mouseX - ringX) > 0.2 || Math.abs(mouseY - ringY) > 0.2) {
+      if (Math.abs(mouseX - auraX) > 0.1 || Math.abs(mouseY - auraY) > 0.1) {
         animationFrameId = requestAnimationFrame(render);
       } else {
         isRunning = false;
@@ -41,26 +41,29 @@ export default function CustomCursor() {
       mouseY = e.clientY;
       if (!isVisible) setIsVisible(true);
 
-      // Instant 1:1 hardware update for dot
+      // Instant 1:1 hardware update for the pinpoint dot
       if (dotRef.current) {
-        dotRef.current.style.transform = `translate3d(${mouseX - 3}px, ${mouseY - 3}px, 0)`;
+        dotRef.current.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`;
       }
 
-      // Wake up ring lerp loop only when mouse moves
+      // Wake up smooth follow loop only when mouse moves
       if (!isRunning) {
         isRunning = true;
         animationFrameId = requestAnimationFrame(render);
       }
     };
 
+    const onMouseDown = () => setIsClicking(true);
+    const onMouseUp = () => setIsClicking(false);
+
     const onMouseOver = (e) => {
       const target = e.target;
       if (
-        target.tagName.toLowerCase() === 'button' ||
-        target.tagName.toLowerCase() === 'a' ||
+        target.tagName?.toLowerCase() === 'button' ||
+        target.tagName?.toLowerCase() === 'a' ||
         target.closest('button') ||
         target.closest('a') ||
-        target.dataset.cursorHover === 'true'
+        target.dataset?.cursorHover === 'true'
       ) {
         setIsHovered(true);
       } else {
@@ -69,10 +72,14 @@ export default function CustomCursor() {
     };
 
     window.addEventListener('mousemove', onMouseMove, { passive: true });
+    window.addEventListener('mousedown', onMouseDown);
+    window.addEventListener('mouseup', onMouseUp);
     window.addEventListener('mouseover', onMouseOver, { passive: true });
 
     return () => {
       window.removeEventListener('mousemove', onMouseMove);
+      window.removeEventListener('mousedown', onMouseDown);
+      window.removeEventListener('mouseup', onMouseUp);
       window.removeEventListener('mouseover', onMouseOver);
       if (animationFrameId) cancelAnimationFrame(animationFrameId);
     };
@@ -82,20 +89,24 @@ export default function CustomCursor() {
 
   return (
     <>
-      {/* 1:1 Pinpoint Center Dot */}
+      {/* 1:1 Precision Core Dot (Sleek luxury amber gold, zero awkward wire circle) */}
       <div
         ref={dotRef}
-        className="fixed top-0 left-0 w-1.5 h-1.5 rounded-full bg-[#FFBD59] pointer-events-none z-50 mix-blend-difference"
+        className={`fixed top-0 left-0 -ml-1 -mt-1 rounded-full pointer-events-none z-[999] transition-transform duration-100 ${
+          isClicking ? 'scale-75' : isHovered ? 'scale-125' : 'scale-100'
+        }`}
         style={{ willChange: 'transform' }}
-      />
+      >
+        <div className="w-2 h-2 rounded-full bg-[#FFBD59] shadow-[0_0_10px_rgba(255,189,89,0.9)]" />
+      </div>
 
-      {/* Smooth Lag Outer Halo */}
+      {/* Subtle Interactive Aura: Only blooms smoothly on hover over clickable elements */}
       <div
-        ref={ringRef}
-        className={`fixed top-0 left-0 rounded-full pointer-events-none z-50 transition-all duration-200 border ${
+        ref={auraRef}
+        className={`fixed top-0 left-0 -ml-4 -mt-4 rounded-full pointer-events-none z-[998] transition-[width,height,opacity,background-color,border-color] duration-200 ease-out ${
           isHovered
-            ? 'w-12 h-12 -translate-x-1.5 -translate-y-1.5 bg-[#FFBD59]/15 border-[#FFBD59]/80 scale-110 shadow-[0_0_20px_rgba(255,189,89,0.4)]'
-            : 'w-9 h-9 bg-transparent border-white/40 scale-100'
+            ? 'w-8 h-8 -ml-4 -mt-4 bg-[#FFBD59]/15 border border-[#FFBD59]/50 shadow-[0_0_15px_rgba(255,189,89,0.3)] opacity-100'
+            : 'w-6 h-6 opacity-0 border-transparent'
         }`}
         style={{ willChange: 'transform' }}
       />

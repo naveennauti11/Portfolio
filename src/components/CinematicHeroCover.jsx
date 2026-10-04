@@ -57,9 +57,9 @@ export default function CinematicHeroCover() {
           </div>
 
           {/* Master Display Name */}
-          <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-[7.2rem] font-display font-black text-white tracking-[-0.03em] uppercase leading-[0.88] drop-shadow-2xl">
+          <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-[4.6rem] xl:text-[5.8rem] 2xl:text-[6.8rem] font-display font-black text-white tracking-tight uppercase leading-[0.92] drop-shadow-2xl">
             NAVEEN <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-white/95 to-[#FFBD59]">
+            <span className="inline-block whitespace-nowrap text-transparent bg-clip-text bg-gradient-to-r from-white via-white/95 to-[#FFBD59]">
               NAUTIYAL
             </span>
           </h1>
