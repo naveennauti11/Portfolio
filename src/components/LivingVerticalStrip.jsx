@@ -22,7 +22,7 @@ const getToolForCategory = (category) => {
 
 export default function LivingVerticalStrip({ onSelectVideo }) {
   const [isPaused, setIsPaused] = useState(false);
-  const [speedMultiplier, setSpeedMultiplier] = useState(2);
+  const [speedMultiplier, setSpeedMultiplier] = useState(1);
 
   // Curate 24 diverse, high-impact cuts across all 5 categories for 60fps GPU performance
   const curatedShowcase = useMemo(() => {
@@ -74,7 +74,7 @@ export default function LivingVerticalStrip({ onSelectVideo }) {
             <span>{isPaused ? 'Resume' : 'Pause'}</span>
           </button>
 
-          {/* Speed Toggle (2x by default) */}
+          {/* Speed Toggle (1x by default, 2x on click) */}
           <button
             onClick={() => setSpeedMultiplier(prev => prev === 2 ? 1 : 2)}
             className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full border text-xs font-mono uppercase tracking-wider transition-colors ${
@@ -86,7 +86,7 @@ export default function LivingVerticalStrip({ onSelectVideo }) {
             title="Toggle forward motion speed"
           >
             <FastForward className="w-3 h-3 text-[#FFBD59]" />
-            <span>2x Speed</span>
+            <span>{speedMultiplier === 2 ? '2x Active' : '2x Speed'}</span>
           </button>
         </div>
       </div>
@@ -100,7 +100,7 @@ export default function LivingVerticalStrip({ onSelectVideo }) {
             <div
               key={`${video.id}-${idx}`}
               onClick={() => onSelectVideo(video)}
-              className="group shrink-0 w-[200px] sm:w-[220px] md:w-[240px] rounded-2xl overflow-hidden bg-[#111111] border border-white/10 hover:border-[#FFBD59] transition-all duration-300 cursor-pointer flex flex-col hover:scale-[1.03] hover:shadow-[0_0_30px_rgba(255,189,89,0.2)]"
+              className="group shrink-0 w-[140px] sm:w-[185px] md:w-[240px] rounded-2xl overflow-hidden bg-[#111111] border border-white/10 hover:border-[#FFBD59] transition-all duration-300 cursor-pointer flex flex-col hover:scale-[1.03] hover:shadow-[0_0_30px_rgba(255,189,89,0.2)]"
               data-cursor-hover="true"
             >
               {/* Visual Frame Canvas (WebP Lightweight Poster Frame) */}

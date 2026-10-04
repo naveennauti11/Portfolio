@@ -5,7 +5,7 @@ import { VAULT_VIDEOS, VAULT_CATEGORIES } from '../data/vaultManifest';
 
 export default function SelectedWork({ onOpenCaseStudy, onOpenArchiveVideo }) {
   const [archiveOpen, setArchiveOpen] = useState(true);
-  const [selectedArchiveCategory, setSelectedArchiveCategory] = useState('cinematic');
+  const [selectedArchiveCategory, setSelectedArchiveCategory] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
 
   return (
@@ -103,7 +103,7 @@ export default function SelectedWork({ onOpenCaseStudy, onOpenArchiveVideo }) {
             </div>
 
             {/* High-Density Archive Grid (Native WebP posters, 0 video bytes until clicked) */}
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3.5">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 sm:gap-3.5">
               {VAULT_VIDEOS
                 .filter(v => {
                   const matchCat = selectedArchiveCategory === 'all' || 
@@ -119,7 +119,7 @@ export default function SelectedWork({ onOpenCaseStudy, onOpenArchiveVideo }) {
                   <div
                     key={video.id}
                     onClick={() => onOpenArchiveVideo(video)}
-                    className="group relative rounded-xl overflow-hidden bg-[#111111] border border-white/10 hover:border-[#FFBD59]/60 cursor-pointer transition-all duration-300 aspect-[9/14]"
+                    className="group relative rounded-xl overflow-hidden bg-[#111111] border border-white/10 hover:border-[#FFBD59]/60 cursor-pointer transition-all duration-300 aspect-[9/13] sm:aspect-[9/14]"
                     data-cursor-hover="true"
                   >
                     {/* Lightweight WebP Poster Thumbnail */}
@@ -197,12 +197,12 @@ function CaseStudyCard({ project, onOpen, layout }) {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       className={`group relative w-full rounded-2xl bg-[#111111] border border-white/10 hover:border-[#FFBD59]/60 transition-all duration-500 cursor-pointer overflow-hidden flex flex-col justify-between ${
-        isHero ? 'p-6 sm:p-8 lg:p-10' : 'p-6 sm:p-7'
+        isHero ? 'p-4 sm:p-8 lg:p-10' : 'p-4 sm:p-7'
       }`}
       data-cursor-hover="true"
     >
       {/* Top Card Eyebrow */}
-      <div className="flex items-center justify-between text-xs font-mono mb-4 text-white/50">
+      <div className="flex items-center justify-between text-xs font-mono mb-3 sm:mb-4 text-white/50">
         <div className="flex items-center gap-3">
           <span className="font-bold text-white group-hover:text-[#FFBD59] transition-colors">
             {project.number}
@@ -214,8 +214,8 @@ function CaseStudyCard({ project, onOpen, layout }) {
       </div>
 
       {/* Video Preview Canvas */}
-      <div className={`relative w-full rounded-xl overflow-hidden bg-black/80 my-4 border border-white/5 ${
-        isTall ? 'aspect-[9/16] max-w-[360px] mx-auto' : isHero ? 'aspect-[21/9]' : 'aspect-video'
+      <div className={`relative w-full rounded-xl overflow-hidden bg-black/80 my-3 sm:my-4 border border-white/5 ${
+        isTall ? 'aspect-[9/14] sm:aspect-[9/16] max-w-[270px] sm:max-w-[360px] mx-auto' : isHero ? 'aspect-[16/9] sm:aspect-[21/9]' : 'aspect-video'
       }`}>
         <img 
           src={project.poster} 
@@ -231,7 +231,6 @@ function CaseStudyCard({ project, onOpen, layout }) {
           preload="none"
           className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-300 ${isHovered ? 'opacity-100' : 'opacity-0'}`}
         >
-          <source src={project.webm} type="video/webm" />
           <source src={project.mp4} type="video/mp4" />
         </video>
 
